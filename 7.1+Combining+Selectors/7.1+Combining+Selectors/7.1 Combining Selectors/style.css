@@ -1,0 +1,47 @@
+/* Write your code here: */
+
+/* 1.Group
+selector,selector{
+property:value;
+}*/
+
+h1,h2{
+    color: aquamarine;
+}
+
+/* 2.child
+selector > selector{
+property:value;
+}*/
+
+div > p{
+    color: firebrick;
+}
+
+/* 3.Descendant
+selector selector{
+property:value;
+}*/
+
+div li{
+    color: blue;
+}
+
+/* 4.Chaining
+selector.selector{
+property:value;
+}*/
+
+li.done{
+    color: seagreen;
+}
+
+/* 4.Combining Selectors
+selector,selector > selector{
+property:value;
+}*/
+ 
+ul>p.done{
+    font-size: 0.5rem;
+}
+
